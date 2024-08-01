@@ -5,7 +5,7 @@ reqpart --add-boot
 part swap --size=32768
 part / --grow --fstype xfs
 
-# ostreecontainer --url quay.io/bryonbaker/nvidia-bootc:latest
+ostreecontainer --url quay.io/bryonbaker/nvidia-bootc:latest
 
 firewall --disabled
 services --enabled=sshd
