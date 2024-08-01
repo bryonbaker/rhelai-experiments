@@ -1,0 +1,2 @@
+# Ignore all ISOs that are used as source or targets.
+*.iso
